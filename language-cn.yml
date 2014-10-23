@@ -1,0 +1,125 @@
+FileVersion: 467
+# By Possessed https://github.com/Possessed/
+ErrorMessages:
+  PermissionDeniedError: '&c你无法执行这个指令.'
+  IngameOnlyError: 这个指令只能在游戏中输入!
+  DoesntExistError: '&4{value1} &c不存在'
+  PlayerNotOnlineError: '&4{value1} &c不在线'
+  NotEnoughSpaceError: '&4{value1} &c没有足够的空间存放.'
+  IncludeItemNameError: '&c你需要输入名字!. 例如: /ils name
+    &4Hand of God'
+  EnterPlayerNameError: '&c你需要输入玩家的名字!'
+  ItemAlreadyExistsError: '&c此物品已存在，请输入其他名称.'
+  NullItemInHandError: '&c你需要手上持有物品后才能使用该命令.'
+  NoLoreError: '&c此物品没有任何说明.'
+  EnterTypeError: '&c你需要输入一个种类 &4Armour&c, &4Hand &c或者 &4All.'
+ClassRequirementMessages:
+  InventoryFull:
+    Head: '&c物品栏已满或你的职业无法使用，物品已掉落.'
+    Chest: '&c物品栏已满或你的职业无法使用，物品已掉落.'
+    Legs: '&c物品栏已满或你的职业无法使用，物品已掉落.'
+    Boots: '&c物品栏已满或你的职业无法使用，物品已掉落.'
+    ItemInHand: '&c物品栏已满或你的职业无法使用，物品已掉落.'
+  NotRequiredClass:
+    Head: '&c你目前的职业无法使用此物品.'
+    Chest: '&c你目前的职业无法使用此物品.'
+    Legs: '&c你目前的职业无法使用此物品.'
+    Boots: '&c你目前的职业无法使用此物品.'
+    ItemInHand: '&c你目前的职业无法使用此物品.'
+LevelRequirementMessages:
+  InventoryFull:
+    Head: '&c物品栏已满或你的等级不够导致无法使用，物品已掉落.'
+    Chest: '&c物品栏已满或你的等级不够导致无法使用，物品已掉落.'
+    Legs: '&c物品栏已满或你的等级不够导致无法使用，物品已掉落.'
+    Boots: '&c物品栏已满或你的等级不够导致无法使用，物品已掉落.'
+    ItemInHand: '&c物品栏已满或你的等级不够导致无法使用，物品已掉落.'
+  LevelTooLow:
+    Head: '&c你需要更高的等级来使用该物品.'
+    Chest: '&c你需要更高的等级来使用该物品.'
+    Legs: '&c你需要更高的等级来使用该物品.'
+    Boots: '&c你需要更高的等级来使用该物品.'
+    ItemInHand: '&c你需要更高的等级来使用该物品.'
+DamageMessages:
+  DamageDone: '&d你对 &r{defender} &d造成了 &6{value2} &d伤害.'
+  DamageDoneWithoutVowel: '&dYou hit a &r{value1} &dfor &6{value2} &ddamage.'
+  DamageDoneWithVowel: '&dYou hit an &r{value1} &dfor &6{value2} &ddamage.'
+  DamageTaken: '&r{attacker} &d对你造成了 &6{value2} &d伤害.'
+  CriticalStrikeSuccess: '&a暴击!'
+  EnemyCriticalStrikeSuccess: '&4{attacker} &c对你发动了暴击！'
+  DodgeSuccess: '&a回避了对方!'
+  EnemyDodgeSuccess: '&4{defender} &c回避了你的攻击!'
+  BlockSuccess: '&a发动格挡技能!'
+  EnemyBlockSuccess: '&4{defender} &c格挡了你的攻击!'
+  LifeStealSuccess: '&2{value1} &a的生命从 &2{defender} 偷取 &a!'
+  EnemyLifeStealSuccess: '&4{attacker} &c偷取了你 &4{value1} &c点生命!'
+  ReflectSuccess: '&a发动攻击反噬技能!'
+  EnemyReflectSuccess: '&4你的攻击被{defender}反噬了 &c!'
+  FireSuccess: '&2{defender} &a燃烧了!'
+  EnemyFireSuccess: '&4{attacker} &c使你燃烧!'
+  IceSuccess: '&2{defender} &a 被减速了!'
+  EnemyIceSuccess: '&4你受到了{attacker} &c的减速技能'
+  PoisonSuccess: '&2{defender} &a已中毒!'
+  EnemyPoisonSuccess: '&4{attacker} &c对你下毒.'
+  WitherSuccess: '&2{defender} &awithered!'
+  EnemyWitherSuccess: '&4{attacker} &cwithered you!'
+  HarmSuccess: '&2撕裂了{defender} &a的伤口!'
+  EnemyHarmSuccess: '你因&4{attacker} &c负伤!'
+  BlindSuccess: '&2{defender} &a失明了!'
+  EnemyBlindSuccess: '你因&4{attacker} &c失明!'
+SoulboundMessages:
+  InventoryFull:
+    Head: '&c你的物品栏已满或此物品已被&4{value1}的绑定&c.'
+    Chest: '&c你的物品栏已满或此物品已被&4{value1}的绑定&c.'
+    Legs: '&c你的物品栏已满或此物品已被&4{value1}的绑定&c.'
+    Boots: '&c你的物品栏已满或此物品已被&4{value1}的绑定&c.'
+    ItemInHand: '&c你的物品栏已满或此物品已被&4{value1}的绑定&c.'
+  BoundToSomeoneElse:
+    Head: '&c此物品已被&4{value1}绑定&c.'
+    Chest: '&c此物品已被&4{value1}绑定&c.'
+    Legs: '&c此物品已被&4{value1}绑定&c.'
+    Boots: '&c此物品已被&4{value1}绑定&c.'
+    ItemInHand: '&c此物品已被&4{value1}绑定&c.'
+SpellMessages:
+  CastSpell:
+    ItemInHand: '&e右键投掷物品'
+    CooldownRemaining: '&6需要{value1} &d秒冷却.'
+    Heal: '&2{attacker} &a恢复了你&2{value1} &a点生命.'
+RepairMessages:
+  RepairSuccessfulMaterial: '&a成功修复了 &2{value1}&c.'
+  RepairSuccessfulCurrency: '&a成功修复了 &2{value1} &a并花费了 &2{value2} &a.'
+  DoesntNeedRepair: '&4{value1} &c不需要任何修复.'
+  NotEnoughMoney: '&你需要 &4{value2}  &c来修复 &4{value1}&c.'
+  NotEnoughLeather: '&c没有足够的皮革来修复 &4{value1}&c.'
+  NotEnoughWood: '&c没有足够的木板来修复 &4{value1}&c.'
+  NotEnoughCobblestone: '&c没有足够的煤矿来修复 &4{value1}&c.'
+  NotEnoughIron: '&c没有足够的铁锭来修复 &4{value1}&c.'
+  NotEnoughGold: '&c没有足够的金锭来修复 &4{value1}&c.'
+  NotEnoughDiamond: '&c没有足够的钻石来修复 &4{value1}&c.'
+  NotEnoughSticks: '&c没有足够的木棍来修复 &4{value1}&c.'
+  NotEnoughFlint: '&c没有足够的燧石来修复 &4{value1}&c.'
+  NotEnoughString: '&c没有足够的蛛丝来修复 &4{value1}&c.'
+  NotEnoughFishingRod: '&c没有足够的钓鱼竿来修复 &4{value1}&c.'
+  NotEnoughCarrots: '&c你需要一个胡萝卜来修复 &4{value1}&c.'
+UpgradeMessages:
+  UpgradeSuccessful: '&2{value1} &a已升级.'
+  UpgradeCapReached: '&2{value1} &a已经到达最大等级.'
+SellMessages:
+  SellSuccessful: '&a你出售了 &2{value1} &a并赚取 &2{value2} &a.'
+  UnableToSell: '&c你无法出售 &2{value1}&c.'
+ItemType:
+  Tool:
+    Sword: 剑
+    Pickaxe: 镐
+    Axe: 斧
+    Spade: 铲
+    Hoe: 锄
+    Bow: 弓
+    Stick: 木棍
+    Blaze_Rod: Blaze Rod
+    String: 蛛丝
+  Armour:
+    Skull_Helmet: 头盔
+    Helmet: 头盔
+    Chestplate: 盔甲
+    Leggings: 护腿
+    Boots: 鞋
